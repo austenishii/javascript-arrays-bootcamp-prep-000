@@ -9,3 +9,5 @@ function addElementToEndOfArray(chocolateBars, foo) {var newChocolateBars = [...
 function destructivelyAddElementToEndOfArray(chocolateBars, foo) {chocolateBars.push("foo"); return chocolateBars}
 
 function accessElementInArray (chocolateBars, two) {return chocolateBars[2]}
+
+function destructivelyRemoveElementFromBeginningOfArray (chocolateBars) {chocolateBars.shift(); return chocolateBars}
