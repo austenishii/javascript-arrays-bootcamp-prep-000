@@ -8,3 +8,4 @@ function addElementToEndOfArray(chocolateBars, foo) {var newChocolateBars = [...
 
 function destructivelyAddElementToEndOfArray(chocolateBars, foo) {chocolateBars.push("foo"); return chocolateBars}
 
+function accessElementinArray (chocolateBars, two) {return chocolateBars[2]}
